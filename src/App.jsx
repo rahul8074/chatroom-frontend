@@ -11,7 +11,7 @@ function App() {
   
 
   useEffect(() => {
-    const socket = io('https://chatroom-backend-ntl5.onrender.com:10000');
+    const socket = io('https://chatroom-backend-ntl5.onrender.com');
     // Connect to the Socket.IO server
     setSocket(socket);
 
